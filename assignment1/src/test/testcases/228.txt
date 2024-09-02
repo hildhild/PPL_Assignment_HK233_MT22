@@ -1,0 +1,6 @@
+
+            empty_function: function void (a:integer, b:integer){
+                local: integer = 5;
+                return local+a+b;
+            )
+        

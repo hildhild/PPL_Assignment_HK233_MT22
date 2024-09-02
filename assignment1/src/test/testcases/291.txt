@@ -1,0 +1,6 @@
+    
+        a : function void()
+            {
+                c()[1] = 1;
+            }
+        

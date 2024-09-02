@@ -1,0 +1,1 @@
+bkool: function void(){}

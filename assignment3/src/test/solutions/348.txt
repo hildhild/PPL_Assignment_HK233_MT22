@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([IfStmt(BinExpr(==, FuncCall(is_easy, [StringLit(PPL)]), BooleanLit(True)), BlockStmt([CallStmt(printString, StringLit(de the co a))]), BlockStmt([CallStmt(printString, StringLit(hoc lai di em))]))]))
+])

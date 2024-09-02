@@ -1,0 +1,1 @@
+main,:,function,void,(,),{,for,(,i,=,get_started,(,),,,i,<=,5,,,i,+,2,),{,printInteger,(,Yoooo!,),;,},},<EOF>

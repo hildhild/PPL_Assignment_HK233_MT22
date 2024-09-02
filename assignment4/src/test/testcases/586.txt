@@ -1,0 +1,13 @@
+
+        fibo: function integer(n: integer)
+        {
+            if (n <= 1)
+            {
+                return n;
+            }
+            return fibo(n - 1) + fibo(n - 2);
+        }
+        main: function void() {
+            a: integer = 46;
+            printInteger(fibo(a));
+        }

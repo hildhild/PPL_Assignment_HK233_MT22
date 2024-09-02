@@ -1,0 +1,12 @@
+
+        inc: function void(i: integer){
+            i = i+1;
+            return;
+        }
+        
+        main:function void(){
+            i: integer = 2;
+            inc(i);
+            printInteger(i);
+        }
+        

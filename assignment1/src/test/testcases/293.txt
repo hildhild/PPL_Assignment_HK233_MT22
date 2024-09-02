@@ -1,0 +1,6 @@
+    
+        a : function auto()
+            {
+                 c: auto = 1 c : auto = 1;
+            }
+        

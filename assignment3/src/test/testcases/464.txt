@@ -1,0 +1,10 @@
+
+        foo: function auto(a:auto,b:auto,c:auto,d:integer){
+            a = 5;
+            return a; // foo->integer
+        }
+        main: function void(){
+            f: auto = foo(1,2,3,4); // f->float
+            f = f + "wrong";
+        }
+            

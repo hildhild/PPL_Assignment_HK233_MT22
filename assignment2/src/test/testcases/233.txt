@@ -1,0 +1,3 @@
+a : function void (){
+    for (a[1] = foo(), i >= 2, i -foo()) {}
+}

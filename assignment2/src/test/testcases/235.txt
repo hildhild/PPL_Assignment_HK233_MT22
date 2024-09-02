@@ -1,0 +1,3 @@
+a: function integer (inherit out i: integer, i: string) inherit a {
+            a[1,a[2]] = {a,a} + a[1,2,{a,a[1]}][2];
+        }

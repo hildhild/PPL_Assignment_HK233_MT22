@@ -1,0 +1,10 @@
+
+            goo: function auto() {}
+            foo : function auto(b:auto) {
+                a: integer;
+                a = printInteger();
+            }
+            main:function void() {
+                return;
+            }
+            

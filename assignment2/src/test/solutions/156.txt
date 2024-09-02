@@ -1,0 +1,1 @@
+this is valid string \' \" \t \b \f,<EOF>

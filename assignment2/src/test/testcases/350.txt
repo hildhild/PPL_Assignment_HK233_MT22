@@ -1,0 +1,15 @@
+
+        main: function void (){
+            if(calc_score(score)==9){
+                printString("idolll :3");
+            }
+            else {
+                if (calc_score(score)==5){
+                    printString("vua du qua mon :))");
+                }
+                else{
+                    printString("doan xem");
+                }
+            }
+        }
+        

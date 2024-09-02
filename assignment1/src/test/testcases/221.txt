@@ -1,0 +1,6 @@
+ 
+             VoTien: auto = a();
+             VoTien: auto = a(1,2);
+             VoTien: auto = a(x,arr[2])[2];
+             VoTien: auto = a(z,k[3] :: 2)[1,2];
+        

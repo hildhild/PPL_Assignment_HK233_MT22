@@ -1,0 +1,15 @@
+
+        main:function void(){
+            j,k: integer = 10,15;
+            phil(j,j,j+k); // 10,10,25
+            printInteger(j); //<<10
+            printInteger(k); //<<15
+        }
+        phil: function void(a: integer, b: integer, c: integer){
+            b = b+5; //b=15
+            b = a+c+4; // b=39
+            printInteger(a); //<<10
+            printInteger(b); //<<39
+            printInteger(c); //<<25
+        }
+        

@@ -1,0 +1,5 @@
+    
+        a : function auto()
+            {
+            } c : auto = 1;
+        

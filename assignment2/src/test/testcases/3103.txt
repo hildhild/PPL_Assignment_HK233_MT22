@@ -1,0 +1,14 @@
+
+                a : integer = 1;
+                giaithua: function integer(n: integer){
+                    if (n <= 0) return 1;
+                    else return giaithua(n - 1) *n;
+                }
+                a : integer = 1;
+                a : integer = 1;
+
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    a: integer = giaithua(5);
+                    b : integer = 2;
+                }
+            

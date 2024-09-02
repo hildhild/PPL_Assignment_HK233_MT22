@@ -1,0 +1,10 @@
+
+        main:function void(){
+            a: array [1] of integer;
+            i: integer;
+            for(a[0]=3,a[0]>0,a[0]-1){
+                printInteger(a[0]);
+            }
+            printInteger(a[0]);
+        }
+        

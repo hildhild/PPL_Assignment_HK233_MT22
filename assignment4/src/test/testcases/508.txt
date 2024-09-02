@@ -1,0 +1,13 @@
+
+        main:function void(){
+            i: integer = 2;
+            b: boolean = true;
+            s: string = "str";
+            f: float = 9.0;
+            f = f*i+f/2;
+            s = s::((s::s)::s);
+            printInteger(7+i-(-i)*i/2);
+            printBoolean((i==i)&&b);
+            writeFloat(f);
+        }
+        

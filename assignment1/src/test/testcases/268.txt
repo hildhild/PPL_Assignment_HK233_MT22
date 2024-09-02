@@ -1,0 +1,13 @@
+
+        main: function void (){
+            for(i=1,i<getMax(),i+1){
+                while(true){
+                    print("kaka");
+                    do{
+                        print("kuku");
+                    }
+                    while(false);
+                }
+            }
+        }
+        

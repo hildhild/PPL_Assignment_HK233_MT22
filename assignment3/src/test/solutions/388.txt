@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(lcs, IntegerType, [OutParam(X, ArrayType([100], IntegerType)), OutParam(Y, ArrayType([100], IntegerType)), Param(n, IntegerType), Param(m, IntegerType)], None, BlockStmt([IfStmt(BinExpr(||, BinExpr(==, Id(m), IntegerLit(0)), BinExpr(==, Id(n), IntegerLit(0))), ReturnStmt(IntegerLit(0))), IfStmt(BinExpr(==, ArrayCell(X, [BinExpr(-, Id(m), IntegerLit(1))]), ArrayCell(Y, [BinExpr(-, Id(n), IntegerLit(1))])), ReturnStmt(BinExpr(+, IntegerLit(1), FuncCall(lcs, [Id(X), Id(Y), BinExpr(-, Id(m), IntegerLit(1)), BinExpr(-, Id(n), IntegerLit(1))]))), ReturnStmt(FuncCall(max, [FuncCall(lcs, [Id(X), Id(Y), Id(m), BinExpr(-, Id(n), IntegerLit(1))]), FuncCall(lcs, [Id(X), Id(Y), BinExpr(-, Id(m), IntegerLit(1)), Id(n)])])))]))
+])

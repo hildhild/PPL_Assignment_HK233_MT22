@@ -1,0 +1,4 @@
+        fact: function integer ( a : integer) {
+            break;
+            for (a=9_1_2_3 ,foo({}) ,{}+1_12_2) return 1_5;
+        }

@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(isOdd, BooleanType, [Param(x, IntegerType)], None, BlockStmt([ReturnStmt(BinExpr(!=, Id(x), IntegerLit(0)))]))
+	FuncDecl(getArr, ArrayType([3], IntegerType), [Param(x, IntegerType)], None, BlockStmt([ReturnStmt(ArrayLit([Id(x), BinExpr(*, Id(x), IntegerLit(2)), BinExpr(*, Id(x), IntegerLit(3))]))]))
+])

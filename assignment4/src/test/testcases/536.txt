@@ -1,0 +1,9 @@
+
+        main:function void(){
+            b: integer;
+            for(b=0,b<5,b+1){
+                printInteger(b);
+            }
+            printInteger(b);
+        }
+        

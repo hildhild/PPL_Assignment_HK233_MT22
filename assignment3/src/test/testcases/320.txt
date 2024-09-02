@@ -1,0 +1,4 @@
+x: integer = 1;
+        main : function void(){
+            x = x+1;
+            }

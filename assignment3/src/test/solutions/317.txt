@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [OutParam(a, IntegerType), InheritParam(b, StringType)], supermain, BlockStmt([]))
+])

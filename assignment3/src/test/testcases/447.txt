@@ -1,0 +1,8 @@
+
+        a: array [5] of integer;
+        main: function void(){
+            i1: integer = 25;
+            f2: float = 25.0;
+            a = {i1,f2};
+        }
+            

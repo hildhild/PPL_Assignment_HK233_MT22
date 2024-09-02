@@ -1,0 +1,3 @@
+  
+            a : integer = func()[1]  ;
+        

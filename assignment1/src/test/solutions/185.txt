@@ -1,0 +1,1 @@
+hello,:,function,void,(,),{,printString,(,hello,),;,},one,:,function,integer,(,x,:,integer,),{,return,1,;,},<EOF>

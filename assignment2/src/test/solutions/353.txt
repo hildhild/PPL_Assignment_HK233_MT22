@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([IfStmt(BinExpr(==, Id(rich), BooleanLit(True)), IfStmt(BinExpr(==, Id(nice), BooleanLit(True)), CallStmt(setState, StringLit(kind and rich)), CallStmt(setState, StringLit(unkind and rich))), CallStmt(setState, StringLit(not rich)))]))
+])

@@ -1,0 +1,7 @@
+
+        main:function void(){
+            b: integer = 0;
+            do {b=b+1;} while(b<0);
+            printInteger(b);
+        }
+        

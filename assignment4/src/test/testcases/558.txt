@@ -1,0 +1,14 @@
+
+        i: integer = 0;
+        main:function void(){
+            printInteger(double(inc(i)));
+        }
+        inc: function integer(i: integer){
+            printInteger(i);
+            return i+1;
+        }
+        double: function integer(i: integer){
+            printInteger(i);
+            return i*2;
+        }
+        

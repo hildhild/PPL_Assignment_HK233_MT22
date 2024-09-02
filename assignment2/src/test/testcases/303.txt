@@ -1,0 +1,6 @@
+
+            x: integer = 5;
+            y: float = 5.5e5;
+            z: string = "55";
+            t: boolean = true;
+        

@@ -1,0 +1,9 @@
+
+            main: function void () {
+            a: string = "1";
+            b: string = "1";
+            if (a == b){
+                printInteger(4);
+            }
+        }
+            

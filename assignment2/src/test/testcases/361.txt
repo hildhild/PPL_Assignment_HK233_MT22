@@ -1,0 +1,5 @@
+a: function void (a: array [1] of integer) inherit c {
+    {//}
+        foo(1);
+    }
+}

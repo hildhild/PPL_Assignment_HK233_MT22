@@ -1,0 +1,7 @@
+
+        main: function void(){
+            a: integer;
+            b: integer;
+            b = a[5];
+        }
+            

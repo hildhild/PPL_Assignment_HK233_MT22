@@ -1,0 +1,13 @@
+
+        foo: function void(inherit b: integer) {
+            return;
+        }
+        foo1: function integer (b: integer) inherit foo {
+            preventDefault();
+            a: integer = 1;
+            return a;
+        }
+        main:function void(){
+            printInteger(foo1(1));
+        }
+        

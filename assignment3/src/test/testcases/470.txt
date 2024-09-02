@@ -1,0 +1,7 @@
+
+        foo: function void(inherit a: integer){}
+        mid: function void(){}
+        main: function void() inherit foo{
+            super(1);
+        }
+            

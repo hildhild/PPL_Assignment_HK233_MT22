@@ -1,0 +1,3 @@
+        fact: function integer (inherit out a : integer) {
+            a[1] = {a(0),a[0], {}};
+        }

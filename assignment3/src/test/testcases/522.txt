@@ -1,0 +1,13 @@
+
+        foo: function auto (a: auto, b: integer){
+            return "1";
+            if (b>0){
+                return "2";
+                return true;
+            }
+        }
+        main: function void(){
+            printString(foo("1",2));
+        }
+        
+            

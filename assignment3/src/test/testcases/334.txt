@@ -1,0 +1,8 @@
+
+        main: function void (){
+            a = 1*b;
+            a = true && false;
+            a = a==b;
+            a = a!=b;
+            a = (a::b);
+        }

@@ -1,0 +1,9 @@
+
+        foo: function auto (a: integer, b: integer)
+        {
+            return a + b + 1.5;
+        }
+        main: function void() {
+            x: float = foo(1, 2) + 0.5;
+            printFloat(x);
+        }

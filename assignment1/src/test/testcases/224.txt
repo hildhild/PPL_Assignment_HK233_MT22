@@ -1,0 +1,2 @@
+ VoTien : string = a[1]();
+        

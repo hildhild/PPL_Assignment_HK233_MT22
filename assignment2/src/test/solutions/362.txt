@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(k, IntegerType, IntegerLit(5)), ForStmt(AssignStmt(Id(i), IntegerLit(1)), BinExpr(<, Id(i), FuncCall(getMax, [])), BinExpr(+, Id(i), IntegerLit(1)), CallStmt(printInteger, Id(i))), WhileStmt(BinExpr(&&, BinExpr(<, Id(k), IntegerLit(200)), BinExpr(>, Id(k), IntegerLit(0))), AssignStmt(Id(k), BinExpr(+, Id(k), IntegerLit(5))))]))
+])

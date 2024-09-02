@@ -1,0 +1,6 @@
+
+        main:function void(){
+            a,b,c: integer = 1,2,3;
+            printInteger(b);
+        }
+        

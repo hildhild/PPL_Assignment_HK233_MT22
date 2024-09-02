@@ -1,0 +1,8 @@
+
+            foo : function integer(b:auto) {
+                return 0.1;
+            }
+            main:function void() {
+                return;
+            }
+            

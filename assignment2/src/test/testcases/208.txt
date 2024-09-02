@@ -1,0 +1,1 @@
+a : function void (inherit a : void, out b : array [1] of integer) inherit c {return 1;}

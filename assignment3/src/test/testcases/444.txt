@@ -1,0 +1,10 @@
+
+        main: function void(){
+            a: integer = 2;
+            b: float = 2.1;
+            a = foo(a,b) + 2;
+        }
+        foo: function integer(a: integer, b: float, c: integer){
+            return a+b+c;
+        }
+            

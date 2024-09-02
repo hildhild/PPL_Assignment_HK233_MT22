@@ -1,0 +1,6 @@
+    
+        a : function auto()
+        {
+            return 1 break;
+        }
+        

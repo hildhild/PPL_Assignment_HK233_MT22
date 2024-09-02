@@ -1,0 +1,7 @@
+
+         main : function void()
+            {
+            for (i[1] = true,  i >= 10 , 1 + 1)
+                a = 1;
+            }
+        

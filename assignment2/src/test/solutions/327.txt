@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(ArrayCell(b, [IntegerLit(0), IntegerLit(1)]), StringLit(string)), AssignStmt(ArrayCell(c, [IntegerLit(1), IntegerLit(2), IntegerLit(3)]), FloatLit(500000.0))]))
+])

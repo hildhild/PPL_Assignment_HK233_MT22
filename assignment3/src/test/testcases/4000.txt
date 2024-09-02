@@ -1,0 +1,5 @@
+
+            main: function void() {
+                c: auto = { {1 , 2}, { 1,1.5} };
+            }
+            

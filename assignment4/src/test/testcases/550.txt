@@ -1,0 +1,11 @@
+
+        a: array [5] of integer;
+        main:function void(){
+            a = {1,2,3,4,5};
+            i,l: integer = 0,5;
+            for(i=0,i<l,i+1){
+                if(a[i]%2==0) printInteger(a[i]);
+                else continue;
+            }
+        }
+        

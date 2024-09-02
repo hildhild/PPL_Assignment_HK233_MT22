@@ -1,0 +1,35 @@
+
+        main:function void(){
+            b: integer = 7;
+            {
+                if(b>10){
+                    printString("x>10");
+                    {
+                        b = b*2;
+                        {
+                            b = b-2;
+                        }
+                    }
+                }
+                else if ((b<=10) && (b>=5)){
+                    {
+                        b = b+1;
+                        printString("5<=x<=10;");
+                        {
+                            b = b*1;
+                            if(b==8) printString("x=8;");
+                        }
+                    }
+                    b = b+1;
+                }
+                else{
+                    {
+                        b = b-6;
+                    }
+                    printString("x<5");
+                }
+                b = b-1;
+            }
+            printInteger(b);
+        }
+        

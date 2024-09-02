@@ -1,0 +1,1 @@
+main : function void(a:integer,b:string,c:boolean,d:float){}

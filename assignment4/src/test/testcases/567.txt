@@ -1,0 +1,13 @@
+
+        doubleMap: function void (arr: array [5] of integer, size: integer){
+            i: integer;
+            for(i=0,i<size,i+1){
+                arr[i] = arr[i] * 2;
+            }
+            printInteger(arr[2]);
+        }
+        main:function void(){
+            nums: array [5] of integer = {1,2,3,4,5};
+            doubleMap(nums,5);
+        }
+        

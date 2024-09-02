@@ -1,0 +1,12 @@
+
+        foo: function auto(a:auto,b:auto,c:auto){
+            return 0.0;
+        }
+        main: function void(){
+            i: integer;
+            f: float;
+            f = f+i;
+            f = foo(i,f,f)+f; // infer: foo->float (return),a->integer,b->float,c->float
+            foo(1,2.0,3.0); // invalid: foo is not void
+        }
+            

@@ -1,0 +1,13 @@
+
+        a: integer = 6;
+        main:function void(){
+            b: integer = 7;
+            {
+                b = 8;
+                {
+                    a = 9;
+                }
+            }
+            printInteger(a+b);
+        }
+        

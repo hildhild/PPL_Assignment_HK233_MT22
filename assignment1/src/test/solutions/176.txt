@@ -1,0 +1,1 @@
+main,:,function,void,(,),{,do,{,a,=,a,+,1,;,i,:,integer,=,0,;,do,{,printInteger,(,i,),;,i,=,i,+,1,;,},while,(,i,<,a,),;,},while,(,a,<,10,),;,},<EOF>

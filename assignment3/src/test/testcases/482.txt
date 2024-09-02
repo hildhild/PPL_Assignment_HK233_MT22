@@ -1,0 +1,7 @@
+
+        foo: function auto(a: integer, b: integer){}
+        main: function void(){
+            a: float = foo(1,2);
+            writeFloat(foo(1,2));
+        }
+            

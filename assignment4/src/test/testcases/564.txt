@@ -1,0 +1,10 @@
+
+        main:function void(){
+            a: float = 1.0;
+            b: float = 2.0;
+            writeFloat(add(a*b-b/b+0.6,b-0.2));
+        }
+        add: function float(a: float, b:float){
+            return a+b;
+        }
+        

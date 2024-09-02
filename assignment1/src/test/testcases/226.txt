@@ -1,0 +1,11 @@
+
+            empty_function: function void (a:integer, b:integer) {
+                local: integer = 5;
+                return local+a+b;
+            }
+            return_function: function integer (out a:integer, b:integer) inherit empty_function{
+                local: integer = 5;
+                return local+a+b;
+            }
+            
+        

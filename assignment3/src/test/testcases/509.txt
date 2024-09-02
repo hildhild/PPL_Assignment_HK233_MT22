@@ -1,0 +1,7 @@
+
+            foo: function auto(){}
+main: function void(){
+    a: float = -foo();
+    b: float = foo() + 1.2;
+}
+            

@@ -1,0 +1,7 @@
+
+        a: integer = 6;
+        main:function void(){
+            a = a+1;
+            printInteger(a);
+        }
+        

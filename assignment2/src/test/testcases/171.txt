@@ -1,0 +1,9 @@
+
+        main: function void (){
+            for(i=get_started(), i<5*2, i+2){
+                for(j=get_started(), j<5*2, j+1){
+                    printInteger(i+j);
+                }
+            }
+        }
+        

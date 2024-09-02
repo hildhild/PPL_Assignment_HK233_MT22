@@ -1,0 +1,12 @@
+
+        main: function void(){
+            a: integer;
+            b: float;
+            c: integer;
+            d: string;
+            e: string;
+            d = d :: e; // valid
+            b = a % c; // valid
+            a = a % b; // invalid: a % b
+        }
+            

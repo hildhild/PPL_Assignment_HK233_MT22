@@ -1,0 +1,10 @@
+
+        main: function void (){
+            a: integer = 0;
+            while(match(a)<10){
+                printInteger(a);
+                while(match(a)*match(a)<69)
+                    printInteger(10-a);
+            }
+        }
+        

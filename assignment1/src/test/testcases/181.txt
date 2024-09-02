@@ -1,0 +1,7 @@
+
+        main: function void (){
+            f(f());
+            f(f(f(f(f()))));
+            f(f(f(f(f(f())))),f(f(f(f(f())))));
+        }
+        

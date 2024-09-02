@@ -1,0 +1,8 @@
+
+        main: function void (){
+            hello();
+            hello("Sang");
+            hello("Sang","Kha");
+            hello(hello("Sang"),"Kha");
+        }
+        

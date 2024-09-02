@@ -1,0 +1,12 @@
+
+        main:function void(){
+            a: array [5] of integer = {1,2,3,4,5};
+            b: array [3] of string = {"1","2","3"};
+            c: array [2] of boolean = {true,false};
+            d: array [2] of float = {1.0,2.0};
+            printInteger(a[1]);
+            printString(b[1]);
+            printBoolean(c[1]);
+            writeFloat(d[1]);
+        }
+        

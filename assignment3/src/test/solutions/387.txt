@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(findDepthRec, IntegerType, [OutParam(arr, ArrayType([100], IntegerType)), Param(n, IntegerType), OutParam(index, IntegerType)], None, BlockStmt([IfStmt(BinExpr(||, BinExpr(>=, Id(index), Id(n)), BinExpr(==, ArrayCell(tree, [Id(index)]), StringLit(l))), ReturnStmt(IntegerLit(0))), AssignStmt(Id(index), BinExpr(+, Id(index), IntegerLit(1))), VarDecl(left, IntegerType, FuncCall(findDepthRec, [Id(tree), Id(n), Id(index)])), AssignStmt(Id(index), BinExpr(+, Id(index), IntegerLit(1))), VarDecl(right, IntegerType, FuncCall(findDepthRec, [Id(tree), Id(n), Id(index)])), ReturnStmt(BinExpr(+, FuncCall(max, [Id(left), Id(right)]), IntegerLit(1)))]))
+	FuncDecl(findDepth, VoidType, [OutParam(arr, ArrayType([100], IntegerType)), Param(n, IntegerType)], None, BlockStmt([VarDecl(index, IntegerType, IntegerLit(0)), ReturnStmt(FuncCall(findDepthRec, [Id(tree), Id(n), Id(index)]))]))
+])

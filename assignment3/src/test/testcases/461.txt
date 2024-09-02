@@ -1,0 +1,12 @@
+
+        foo: function auto(a:auto,b:auto,c:auto){
+            return 0.0; // foo->float
+        }
+        bar: function void(){}
+        main: function void(){
+            i: integer;
+            f: float;
+            f = foo(i,f,f)+f; // infer: foo->float,a->integer,b->float,c->float
+            f = foo(1,"2",3.0); // invalid: param 2 mismatch
+        }
+            

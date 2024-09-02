@@ -1,0 +1,1 @@
+Type mismatch in expression: FuncCall(foo, [FloatLit(2.0), IntegerLit(2)])

@@ -1,0 +1,11 @@
+
+        main: function void(){}
+        goo: function void(b: integer) inherit bar{
+            super(2);
+            c = a + b;
+        }
+        bar: function void(inherit b: integer) inherit foo{
+            super(1);
+        }
+        foo: function void(inherit a: integer){}
+            

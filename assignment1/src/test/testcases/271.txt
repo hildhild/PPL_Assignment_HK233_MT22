@@ -1,0 +1,22 @@
+
+             isPrime : function void(x: integer){}
+             main: function auto()
+                {
+                     x : auto = readNumber();
+                    if (isPrime(x)) printString("Yes");
+                    else printString("No");
+                }
+            isPrime : function void (x : float)
+            {
+            if (x <= 1) return false;
+             i : auto = 2;
+            for (i = 1 , i > x / 2 , 1)
+            {
+            if (x % i == 0) return false;
+            }
+            return true;
+            
+            
+            for (i = {0} , i > x / 2 , 1 + 1) { c : auto = 1;}
+            }
+        

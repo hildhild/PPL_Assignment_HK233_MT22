@@ -1,0 +1,3 @@
+a : function void (inherit a : integer, out b : array [1] of string) inherit c {
+                  i : integer = a == (b >= c);
+                }

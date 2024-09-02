@@ -1,0 +1,7 @@
+
+        main: function void(){
+            
+        }
+        a: auto = foo(1, 2);
+        foo: function auto() { }
+            

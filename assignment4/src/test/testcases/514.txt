@@ -1,0 +1,6 @@
+
+        main:function void(){
+            f: array [2,2,2] of integer = {{{1+2,2*4},{3-5,4+1}},{{1%1,2/2},{30-6,4+5}}};
+            printInteger(f[1,1,1]);
+        }
+        

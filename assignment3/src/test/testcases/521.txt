@@ -1,0 +1,12 @@
+
+        foo: function auto (a: auto, b: integer){
+            return "1";
+            if (b>0){
+                return 1;
+            }
+        }
+        main: function void(){
+            printString(foo("1",2));
+        }
+        
+            

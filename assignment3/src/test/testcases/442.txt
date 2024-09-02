@@ -1,0 +1,9 @@
+
+        main: function void(){
+            a: integer = 2;
+            a = foo() + 2;
+        }
+        foo: function void(){
+            return;
+        }
+            

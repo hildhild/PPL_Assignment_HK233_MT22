@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(fact, IntegerType, [InheritOutParam(a, IntegerType)], None, BlockStmt([AssignStmt(ArrayCell(a, [IntegerLit(1)]), ArrayLit([FuncCall(a, [IntegerLit(0)]), ArrayCell(a, [IntegerLit(0)]), ArrayLit([])]))]))
+])

@@ -1,0 +1,14 @@
+
+        inc: function void(a: array[3] of integer, l: integer){
+            i: integer;
+            for(i=0,i<l,i+1){
+                a[i] = a[i]+1;
+            }
+        }
+        
+        main:function void(){
+            a: array[3] of integer = {1,2,3};
+            inc(a,3);
+            printInteger(a[2]);
+        }
+        

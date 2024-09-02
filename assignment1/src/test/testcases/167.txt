@@ -1,0 +1,5 @@
+
+            a: string = "Kha";
+            b: string = "Sang";
+            c: string = a::b;
+        

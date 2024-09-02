@@ -1,0 +1,11 @@
+
+        main: function void(){
+            a: array[3,4] of integer;
+            a[foo(), 1+4] = 222;
+            a[1,2] = bar();
+            printInteger(foo());
+            printInteger(bar());
+        }
+        foo: function auto(){}
+        bar: function auto(){}
+            

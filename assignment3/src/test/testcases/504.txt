@@ -1,0 +1,9 @@
+
+            x: function float (x : integer) {
+
+    x: float = x + x;
+
+    return x;
+
+}
+            

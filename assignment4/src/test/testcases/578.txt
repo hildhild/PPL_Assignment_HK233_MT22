@@ -1,0 +1,12 @@
+
+        foo: function void(inherit a: integer, b: integer, inherit c: integer) {
+            return;
+        }
+        foo1: function integer (b: integer) inherit foo {
+            super(1,2,3);
+            return a+b+c;
+        }
+        main:function void(){
+            printInteger(foo1(4));
+        }
+        

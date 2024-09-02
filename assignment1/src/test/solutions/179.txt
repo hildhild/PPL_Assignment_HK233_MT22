@@ -1,0 +1,1 @@
+main,:,function,void,(,),{,k,:,integer,=,5,;,for,(,i,=,1,,,i,<,getMax,(,),,,i,+,1,),printInteger,(,i,),;,while,(,(,k,<,200,),&&,(,k,>,0,),),k,=,k,+,5,;,},<EOF>

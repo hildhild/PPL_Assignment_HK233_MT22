@@ -1,0 +1,8 @@
+ 
+             VoTien: auto = a() + --1 / 2 *3 <= 3 :: "v" >= 2;
+             VoTien: auto = a(1,2)[1,2,3 :: 2] + false + true;
+             VoTien: auto = a(z,k[2,3,"2"] :: 2)[true];
+             VoTien: auto = (a :: 3) :: b && (a >= b) < b[1, b[1]];
+             VoTien: auto =  {"tr", 2, 3, 4, 5} + {{1, 2 + 2 * 2 / 3, 3},{4, 5, 6}};
+             VoTien: auto = a(x,arr[2])[2,3+2,true,false];
+        

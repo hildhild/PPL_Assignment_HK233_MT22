@@ -1,0 +1,7 @@
+
+        main:function void(){
+            e: array [2,2] of string = {{"1","2"},{"3","4"}};
+            e[1,1] = "5";
+            printString(e[1,1]);
+        }
+        

@@ -1,0 +1,13 @@
+
+        main:function void(){
+            b: integer = 5;
+            do{
+                i:integer = 2;
+                do{
+                    i = i-1;
+                } while(i>0);
+                b = b-1;
+            } while(b>0);
+            printInteger(b);
+        }
+        

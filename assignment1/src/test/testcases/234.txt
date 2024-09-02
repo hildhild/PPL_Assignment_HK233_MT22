@@ -1,0 +1,6 @@
+
+         main : function void(){
+            (aPI)[2]= 3.14;
+         
+         }
+        

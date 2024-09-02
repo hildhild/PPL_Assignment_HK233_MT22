@@ -1,0 +1,19 @@
+
+         main : function float()
+            {
+                {
+                    {
+                        x = 1;
+                    }
+                    
+                    {
+                        return true;
+                    }
+                    
+                    return false;
+                }
+                
+                {}
+                return true;
+            }
+        

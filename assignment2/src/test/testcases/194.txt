@@ -1,0 +1,14 @@
+
+            quickSort: function void (out arr:array [100] of integer, low:integer, high:integer){
+                if (low < high) {
+                    /* pi is partitioning index, arr[p] is now
+                    at right place */
+                    pi:integer = partition(arr, low, high);
+            
+                    // Separately sort elements before
+                    // partition and after partition
+                    quickSort(arr, low, pi - 1);
+                    quickSort(arr, pi + 1, high);
+                }
+            }
+        

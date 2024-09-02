@@ -1,0 +1,13 @@
+
+        main:function void(){
+            a: array [2,3] of integer;
+            r,c: integer = 2,3;
+            i,j: integer = 0,0;
+            for(i=0,i<r,i+1){
+                for(j=0,j<c,j+1){
+                    a[i,j] = i*j+j;
+                    printInteger(a[i,j]);
+                }
+            }
+        }
+        

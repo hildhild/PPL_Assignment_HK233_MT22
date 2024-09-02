@@ -1,0 +1,1 @@
+a : function array [1] of string () inherit c { foo() = 1; }

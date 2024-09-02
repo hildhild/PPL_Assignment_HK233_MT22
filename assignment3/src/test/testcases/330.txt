@@ -1,0 +1,4 @@
+
+        main: function auto (){
+            func(func(),5,foo());
+        }

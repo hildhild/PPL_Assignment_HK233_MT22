@@ -1,0 +1,6 @@
+
+        main: function void (){
+            if(happy) setHappy(true);
+            else setHappy(false);
+        }
+        

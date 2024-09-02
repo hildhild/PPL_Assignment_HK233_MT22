@@ -1,0 +1,11 @@
+
+        main:function void(){
+            b: integer = 5;
+            for(b=5,b>0,b-1){
+                if(b%2==0) {
+                    break;
+                }
+                printInteger(b);
+            }
+        }
+        

@@ -1,0 +1,4 @@
+
+        main: function void (){
+            a = (-a + !b) * e[6] && b  >= 6;
+        }

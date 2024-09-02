@@ -1,0 +1,11 @@
+ 
+            main: function float () {
+                return a;
+            }
+            main: function void (f1 : integer) {
+                return;
+            }
+            main: function void (f1: integer = c) {
+                return;
+            }
+        

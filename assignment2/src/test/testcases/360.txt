@@ -1,0 +1,11 @@
+
+        main: function void (){
+            for(i=1,i<2,i+1){
+                if(i==t)
+                    break;
+                if(i<0)
+                    continue;
+                else printInteger(i);
+            }
+        }
+        

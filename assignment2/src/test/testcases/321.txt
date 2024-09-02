@@ -1,0 +1,4 @@
+x: integer;
+        main : function void(){
+            x: float = 2.0;
+            }

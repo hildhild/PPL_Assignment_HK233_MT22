@@ -1,0 +1,11 @@
+
+        main: function void (){
+            {}
+            {
+                hello();
+            }
+            {
+                a:integer = 1;
+            }
+        }
+        

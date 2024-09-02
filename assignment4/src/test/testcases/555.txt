@@ -1,0 +1,10 @@
+
+        inc: function integer(i: integer){
+            return i+1;
+        }
+        main:function void(){
+            i: integer = 0;
+            i = inc(i);
+            printInteger(inc(i));
+        }
+        

@@ -1,0 +1,1 @@
+main,:,function,void,(,),{,while,(,a,<,5,),{,printInteger,(,a,),;,a,=,a,+,1,;,},},<EOF>

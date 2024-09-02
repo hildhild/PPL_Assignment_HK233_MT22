@@ -1,0 +1,15 @@
+
+        main:function void(){
+            b: integer = 7;
+            if(b>0)
+                printString("x>0;");
+            if ((b<=10) && (b>=5))
+                printString("5<=x<=10");
+            else if (b>=0){
+                printString("0<=x<5");
+            }
+            else{
+                printString("x<0");
+            }
+        }
+        

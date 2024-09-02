@@ -1,0 +1,10 @@
+
+        main: function void (){
+            if(is_easy("PPL")==true){
+                printString("de the co a");
+            }
+            else{
+                printString("hoc lai di em");
+            }
+        }
+        

@@ -1,0 +1,12 @@
+
+        main: function void (){
+            {
+                r, s: integer;
+                r = 2.0;
+                a, b: array [50] of integer;
+                s = r * r * myPI;
+                a[0] = s;
+            }
+        }
+
+        

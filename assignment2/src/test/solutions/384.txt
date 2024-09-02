@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(quickSort, VoidType, [OutParam(arr, ArrayType([100], IntegerType)), Param(low, IntegerType), Param(high, IntegerType)], None, BlockStmt([IfStmt(BinExpr(<, Id(low), Id(high)), BlockStmt([VarDecl(pi, IntegerType, FuncCall(partition, [Id(arr), Id(low), Id(high)])), CallStmt(quickSort, Id(arr), Id(low), BinExpr(-, Id(pi), IntegerLit(1))), CallStmt(quickSort, Id(arr), BinExpr(+, Id(pi), IntegerLit(1)), Id(high))]))]))
+])

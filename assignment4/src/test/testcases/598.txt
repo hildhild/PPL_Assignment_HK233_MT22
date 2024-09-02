@@ -1,0 +1,9 @@
+
+        main: function void() {
+            a: array [10] of integer;
+            i: integer;
+            for(i = 0, i < 10, 1)
+            {
+                printInteger(a[i]);
+            }
+        }

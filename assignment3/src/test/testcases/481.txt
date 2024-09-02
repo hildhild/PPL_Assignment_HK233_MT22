@@ -1,0 +1,10 @@
+
+        main: function void(){
+            a: auto = 10;
+            b: auto = "100";
+            c: auto = a<10;
+            printInteger(a);
+            printString(b);
+            printBoolean(c);
+        }
+            

@@ -1,0 +1,13 @@
+
+        main: function void(){
+            a: integer;
+            a = foo() + 5;
+        }
+        foo: function integer() inherit barrr{
+            preventDefault();
+            return 1;
+        }
+        bar: function integer(){
+            return 2;
+        }
+            

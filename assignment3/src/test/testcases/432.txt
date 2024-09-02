@@ -1,0 +1,7 @@
+
+        main: function void(){
+            a: array [5,5] of integer;
+            b: integer;
+            b = a[1.0,"1"];
+        }
+            

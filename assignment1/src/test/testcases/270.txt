@@ -1,0 +1,12 @@
+
+         areDivisors : function void(num1:auto,  num2: string){
+            return (num1 % num2 == 0 :: num2 % num1 == 0);
+         }
+         main : function auto()
+            {
+                 num1 : float = readNumber();
+                 num2 : float = readNumber();
+                if (areDivisors(num1, num2)) printString("Yes");
+                else printString("No");
+            }
+        

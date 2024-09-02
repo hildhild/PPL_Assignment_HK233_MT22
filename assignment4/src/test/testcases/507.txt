@@ -1,0 +1,8 @@
+
+        main:function void(){
+            a: integer = 1;
+            b: float = 2.0;
+            c: float = a+b;
+            writeFloat(c);
+        }
+        

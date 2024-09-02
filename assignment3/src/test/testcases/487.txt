@@ -1,0 +1,6 @@
+
+        foo: function string(a: integer){}
+        main: function void(){
+            a: array [3] of integer = {1,2};
+        }
+            

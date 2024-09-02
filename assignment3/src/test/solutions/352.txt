@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([IfStmt(Id(happy), CallStmt(setHappy, BooleanLit(True)), CallStmt(setHappy, BooleanLit(False)))]))
+])

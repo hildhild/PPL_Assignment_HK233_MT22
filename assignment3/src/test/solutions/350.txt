@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([IfStmt(BinExpr(==, FuncCall(calc_score, [Id(score)]), IntegerLit(9)), BlockStmt([CallStmt(printString, StringLit(idolll :3))]), BlockStmt([IfStmt(BinExpr(==, FuncCall(calc_score, [Id(score)]), IntegerLit(5)), BlockStmt([CallStmt(printString, StringLit(vua du qua mon :))))]), BlockStmt([CallStmt(printString, StringLit(doan xem))]))]))]))
+])

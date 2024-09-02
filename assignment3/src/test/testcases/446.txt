@@ -1,0 +1,9 @@
+
+        b1: float;
+        main: function void(){
+            a: array [5] of boolean;
+            b1: boolean;
+            b2: boolean;
+            a = {b1,b2};
+        }
+            

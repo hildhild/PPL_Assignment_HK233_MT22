@@ -1,0 +1,12 @@
+
+        i: integer = 0;
+        inc: function integer(i: integer){
+            return i+1;
+        }
+        double: function integer(i: integer){
+            return i*2;
+        }
+        main:function void(){
+            printInteger(double(inc(i)));
+        }
+        

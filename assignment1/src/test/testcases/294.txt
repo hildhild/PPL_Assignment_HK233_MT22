@@ -1,0 +1,6 @@
+    
+        a : function void()
+            {
+                VoTien[] = 1;
+            }
+        

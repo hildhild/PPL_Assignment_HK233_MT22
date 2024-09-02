@@ -1,0 +1,12 @@
+
+        isOdd: function boolean(a: integer){
+            return a%2==1;
+        }
+        getString: function string(a: string){
+            return "GetString: "::a;
+        }
+        main:function void(){
+            printBoolean(isOdd(7));
+            printString(getString("Ez"));
+        }
+        

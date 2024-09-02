@@ -1,0 +1,11 @@
+
+        main:function void(){
+            b: integer = 7;
+            if(b>0){
+                printString("True");
+            }
+            else{
+                printString("False");
+            }
+        }
+        

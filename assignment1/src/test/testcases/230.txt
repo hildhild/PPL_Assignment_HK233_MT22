@@ -1,0 +1,13 @@
+
+        // comment
+         main : function void()
+
+            // comment
+            {
+            aPI = 3.14;
+            }
+            // comment
+            
+        // comment
+        
+        

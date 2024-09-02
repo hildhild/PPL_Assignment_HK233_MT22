@@ -1,0 +1,14 @@
+
+        main:function void(){
+            b: integer = 10;
+            while(b<15){
+                if(b%3==0)
+                    if(b%4==0){
+                        b = b+1;
+                        break;
+                    }
+                printInteger(b);
+                b=b+1;
+            }
+        }
+        

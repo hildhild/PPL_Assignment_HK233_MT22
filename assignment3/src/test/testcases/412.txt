@@ -1,0 +1,4 @@
+main: function void(){}
+            c: function auto(){}
+            c: function void(){}
+            

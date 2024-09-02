@@ -1,0 +1,12 @@
+
+        main: function void() {
+            a: array [2, 3] of boolean;
+            i, j: integer;
+            for(i = 0, i < 2, 1)
+            {
+                for(j = 0, j < 3, 1)
+                {
+                    printBoolean(a[i, j]);
+                }
+            }
+        }

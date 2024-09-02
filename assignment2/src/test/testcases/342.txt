@@ -1,0 +1,6 @@
+
+        main: function void (){
+            t = getA(a) :: getB(b);
+            x: integer = getX(x);
+            a[1] = getA1(a[0]);
+        }

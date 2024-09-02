@@ -1,0 +1,8 @@
+
+            f2: function integer(p1: integer,  p2: integer) inherit f1{
+    super(1, 2);
+}
+f1: function integer(inherit p1: integer, inherit p1: integer) {
+}
+main: function void(){}
+            

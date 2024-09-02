@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(hello, IntegerLit(1)), CallStmt(good_boy, StringLit(Sang), StringLit(Kha)), CallStmt(are_you_ok, BooleanLit(True))]))
+])

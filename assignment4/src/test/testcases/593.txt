@@ -1,0 +1,14 @@
+
+        x: integer = 65;
+        foo: function float (a: integer, b: integer)
+        {
+            if (b == 0)
+            {
+                return 0.0;
+            }
+            return (a * 1.0) / b;
+        }
+        main: function void() {
+            a: float = foo(x - 4, 5);
+            printFloat(a);
+        }

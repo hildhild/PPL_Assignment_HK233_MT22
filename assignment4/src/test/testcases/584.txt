@@ -1,0 +1,19 @@
+
+        phil: function void(out a: integer, out b: integer, c: integer, out d: string){
+            b = b+5; 
+            b = a+c+4; // b=39
+            printInteger(a); //<<10
+            printInteger(b); //<<39
+            printInteger(c); //<<25
+            d = d::d;
+        }
+        main:function void(){
+            j,k: integer = 10,15;
+            s: string = "Hi";
+            phil(j,j,j+k,s); // 10,10,25
+            printInteger(j); // <<39
+            printInteger(k); // <<15
+            printString(s); // <<15
+        }
+        
+        

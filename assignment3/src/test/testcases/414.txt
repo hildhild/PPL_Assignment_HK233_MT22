@@ -1,0 +1,5 @@
+main: function void(){}
+            foo: function integer(a: integer){
+                a: boolean;
+            }
+            

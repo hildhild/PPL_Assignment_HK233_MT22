@@ -1,0 +1,15 @@
+ 
+            //12
+            main : function void (a:integer) //14
+            {
+                //12
+                break;
+                
+            }
+            //12
+            /*12*/
+            main: function void (a:integer) {
+                continue;
+            }
+            //12        
+        

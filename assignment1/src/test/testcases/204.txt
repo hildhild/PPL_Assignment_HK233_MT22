@@ -1,0 +1,5 @@
+ 
+            a : array ["string"] of boolean;
+            a : array [[1,2]] of boolean;
+            a : array [1+1] of boolean;
+        

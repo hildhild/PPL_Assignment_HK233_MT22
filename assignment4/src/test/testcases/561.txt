@@ -1,0 +1,8 @@
+
+        main:function void(){
+            printHelloWorld();
+        }
+        printHelloWorld: function void(){
+            printString("Hello World!");
+        }
+        

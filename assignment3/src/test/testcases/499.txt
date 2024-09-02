@@ -1,0 +1,13 @@
+
+        foo: function auto (a: auto, b: integer){
+            if (b>0){
+                return a; //-> auto
+            }
+            return "a"; //-> string
+            return 1; //-> dont care
+        }
+        main: function void(){
+            printString(foo(1,2));
+        }
+        
+            

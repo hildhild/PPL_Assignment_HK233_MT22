@@ -1,0 +1,6 @@
+
+        main: function void (){
+            a[0] = 5;
+            b[1] = "string";
+            c[3] = 0.5e6;
+        }

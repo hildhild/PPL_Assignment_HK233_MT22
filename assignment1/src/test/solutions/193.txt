@@ -1,0 +1,1 @@
+mergeSort,:,function,void,(,out,arr,:,array,[,100,],of,integer,,,begin,:,integer,,,end,:,integer,),{,if,(,begin,>=,end,),return,;,mid,:,auto,=,begin,+,(,end,-,begin,),/,2,;,mergeSort,(,arr,,,begin,,,mid,),;,mergeSort,(,arr,,,mid,+,1,,,end,),;,merge,(,arr,,,begin,,,mid,,,end,),;,},<EOF>

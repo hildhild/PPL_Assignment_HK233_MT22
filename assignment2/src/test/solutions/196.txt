@@ -1,0 +1,1 @@
+insertionSort,:,function,void,(,out,arr,:,array,[,100,],of,integer,,,n,:,integer,),{,i,,,key,,,j,:,integer,;,for,(,i,=,1,,,i,<,n,,,i,+,1,),{,key,=,arr,[,i,],;,j,=,i,-,1,;,while,(,(,j,>=,0,),&&,(,arr,[,j,],>,key,),),{,arr,[,j,+,1,],=,arr,[,j,],;,j,=,j,-,1,;,},arr,[,j,+,1,],=,key,;,},},<EOF>

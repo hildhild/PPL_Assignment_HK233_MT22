@@ -1,0 +1,3 @@
+a : function void (){
+    while (i*1) {}
+}

@@ -1,0 +1,1 @@
+a : array [1] of array [1] integer = {a[0], true, 1, 1., .e3};

@@ -1,0 +1,1 @@
+Type mismatch in Variable Declaration: VarDecl(c, IntegerType, FloatLit(2.3))

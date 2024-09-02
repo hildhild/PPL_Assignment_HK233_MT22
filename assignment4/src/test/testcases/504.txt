@@ -1,0 +1,16 @@
+
+        main:function void(){
+            a: integer;
+            b: float;
+            c: string;
+            d: boolean;
+            a = 2;
+            b = 1.2;
+            c = "hw";
+            d = false;
+            printInteger(a);
+            writeFloat(b);
+            printString(c);
+            printBoolean(d);
+        }
+        

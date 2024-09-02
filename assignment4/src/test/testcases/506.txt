@@ -1,0 +1,13 @@
+
+        main:function void(){
+            a: integer = -1;
+            a = -a;
+            printInteger(a);
+            b: float = 1e2;
+            b = -b;
+            writeFloat(b);
+            c: boolean = true;
+            c = !c;
+            printBoolean(c);
+        }
+        

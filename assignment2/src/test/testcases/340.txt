@@ -1,0 +1,7 @@
+
+        main: function void (){
+            a = b&&c;
+            a = b!=c;
+            a = b>=c;
+            a = b<=c;
+        }

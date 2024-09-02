@@ -1,0 +1,8 @@
+
+        foo1: function auto(){}
+        foo2: function auto(){}
+        main: function void(){
+            a: array [2] of integer = { foo1(), foo2() };
+            printInteger(foo1());
+        }
+            

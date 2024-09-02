@@ -1,0 +1,1 @@
+Type mismatch in expression: BinExpr(==, BinExpr(+, IntegerLit(1), FloatLit(3.2)), BooleanLit(True))

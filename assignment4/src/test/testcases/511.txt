@@ -1,0 +1,8 @@
+
+        main:function void(){
+            e: array [2,2] of string = {{"1","2"},{"3","4"}};
+            f: array [2,2,2] of integer = {{{1,2},{3,4}},{{1,2},{3,4}}};
+            printString(e[1,1]);
+            printInteger(f[1,1,1]);
+        }
+        

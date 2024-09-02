@@ -1,0 +1,1 @@
+Type mismatch in statement: ForStmt(AssignStmt(Id(b), BooleanLit(True)), BinExpr(<, Id(i), IntegerLit(10)), BinExpr(*, Id(i), IntegerLit(2)), BlockStmt([]))

@@ -1,0 +1,6 @@
+    
+            a : function void()
+            {
+                a : function void() {return 1.0;}
+            }
+        

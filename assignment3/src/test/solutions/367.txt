@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(hello, VoidType, [], None, BlockStmt([CallStmt(printString, StringLit(hello))]))
+	FuncDecl(one, IntegerType, [Param(x, IntegerType)], None, BlockStmt([ReturnStmt(IntegerLit(1))]))
+])

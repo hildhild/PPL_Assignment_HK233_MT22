@@ -1,0 +1,11 @@
+
+            foo: function auto (a: auto, b: auto) {
+
+                c = a == b;
+
+                d = a + b;
+
+                return d;
+
+            }
+            

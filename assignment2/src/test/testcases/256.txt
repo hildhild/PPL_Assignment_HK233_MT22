@@ -1,0 +1,7 @@
+a, b,c : integer;
+ foo : function float (a : integer, out c : string) {
+   e : integer ;
+   e = a + 4 ;
+   c = a * d / 2.0 ;
+   return c + 1;
+}

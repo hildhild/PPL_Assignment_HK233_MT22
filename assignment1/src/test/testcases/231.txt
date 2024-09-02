@@ -1,0 +1,24 @@
+
+         main : function void () {
+             
+        } 
+         main : function void () 
+            {
+                // comment0
+            }
+         main : function auto ()
+            //comment1
+            {
+                /* comment2
+                
+                 comment3*/
+                VoTien = 1 + 2 + fun();
+                VoTien[1+a] = 1;
+                
+                // comment4
+                VoTien[3+4,2,4] = 1;
+                
+                // comment5
+            }
+            // comment
+        

@@ -1,0 +1,10 @@
+
+        main: function void (){
+            if(a){
+            }
+            else if (b){
+            }
+            else{
+            }
+        }
+        

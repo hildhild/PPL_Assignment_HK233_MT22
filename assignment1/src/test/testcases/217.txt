@@ -1,0 +1,4 @@
+ 
+            VoTien : integer = -1 * ! 1;
+            VoTien : integer = ! ! !----C;
+        

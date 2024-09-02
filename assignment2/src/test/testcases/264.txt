@@ -1,0 +1,1 @@
+a,b,c : array [1,4,3] of boolean = "helo",1,2;

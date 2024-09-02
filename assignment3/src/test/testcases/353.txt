@@ -1,0 +1,9 @@
+
+        main: function void (){
+            if(rich==true)
+                if(nice==true)
+                    setState("kind and rich");
+                else setState("unkind and rich");
+            else setState("not rich");
+        }
+        

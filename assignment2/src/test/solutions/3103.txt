@@ -1,0 +1,7 @@
+Program([
+	VarDecl(a, IntegerType, IntegerLit(1))
+	FuncDecl(giaithua, IntegerType, [Param(n, IntegerType)], None, BlockStmt([IfStmt(BinExpr(<=, Id(n), IntegerLit(0)), ReturnStmt(IntegerLit(1)), ReturnStmt(BinExpr(*, FuncCall(giaithua, [BinExpr(-, Id(n), IntegerLit(1))]), Id(n))))]))
+	VarDecl(a, IntegerType, IntegerLit(1))
+	VarDecl(a, IntegerType, IntegerLit(1))
+	FuncDecl(main, VoidType, [InheritOutParam(a, IntegerType), Param(b, FloatType)], a, BlockStmt([VarDecl(a, IntegerType, FuncCall(giaithua, [IntegerLit(5)])), VarDecl(b, IntegerType, IntegerLit(2))]))
+])

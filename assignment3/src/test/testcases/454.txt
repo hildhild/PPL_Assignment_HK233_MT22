@@ -1,0 +1,7 @@
+
+        main: function void(){
+            b: boolean;
+            i: integer;
+            for(i=0,i<10,i+1){}
+        }
+            

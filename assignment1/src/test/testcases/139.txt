@@ -1,0 +1,8 @@
+
+            // Line /* and also block */
+            printhere
+            /*
+                Block //and also line
+                notprinthere
+            */
+        

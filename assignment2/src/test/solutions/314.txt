@@ -1,0 +1,5 @@
+Program([
+	VarDecl(x, IntegerType, FuncCall(hello, []))
+	VarDecl(y, IntegerType, BinExpr(+, Id(a), IntegerLit(5)))
+	VarDecl(z, IntegerType, UnExpr(!, Id(b)))
+])

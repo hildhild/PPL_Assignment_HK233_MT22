@@ -1,0 +1,8 @@
+
+        x: function void(){}
+        main: function void(){
+            a: array[2,3] of integer;
+            b: array[3] of integer = a[0];
+            c: array[5] of integer = a[0];
+        }
+            

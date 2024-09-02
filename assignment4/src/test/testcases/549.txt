@@ -1,0 +1,17 @@
+
+        main:function void(){
+            a: array [3,3] of integer;
+            n,i,j: integer = 3,0,0;
+            for(i=0,i<n,i+1){
+                for(j=0,j<n,j+1){
+                    if(i!=j) continue;
+                    a[i,j] = 1;
+                }
+            }
+            for(i=0,i<n,i+1){
+                for(j=0,j<n,j+1){
+                    printInteger(a[i,j]);
+                }
+            }
+        }
+        

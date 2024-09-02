@@ -1,0 +1,11 @@
+
+        main: function void(){
+            i: integer;
+            for(i=0,i<10,i+1){
+                continue;
+                {
+                    break;
+                }
+            }
+        }
+            

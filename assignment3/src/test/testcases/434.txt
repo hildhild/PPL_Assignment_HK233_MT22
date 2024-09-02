@@ -1,0 +1,8 @@
+
+        main: function void(){
+            a: integer;
+            b: float;
+            // float -> integer:OK
+            b = a;
+        }
+            

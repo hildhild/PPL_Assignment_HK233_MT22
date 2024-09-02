@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([IfStmt(Id(exp1), IfStmt(Id(exp2), CallStmt(a, ), CallStmt(b, )))]))
+])

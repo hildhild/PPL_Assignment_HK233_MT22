@@ -1,0 +1,11 @@
+
+        main: function void(){}
+        go: function void(b: integer) inherit bar{
+            preventDefault();
+            b = a;
+        }
+        bar: function void() inherit foo{
+            super(1);
+        }
+        foo: function void(inherit a: integer){}
+            

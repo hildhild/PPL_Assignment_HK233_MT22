@@ -1,0 +1,21 @@
+
+            findDepthRec: function integer (out arr:array [100] of integer, n:integer, out index:integer){
+                if ((index >= n) || (tree[index] == "l"))
+                    return 0;
+            
+                // calc height of left subtree (In preorder
+                // left subtree is processed before right)
+                index=index+1;
+                left: integer = findDepthRec(tree, n, index);
+            
+                // calc height of right subtree
+                index=index+1;
+                right: integer = findDepthRec(tree, n, index);
+            
+                return max(left, right) + 1;
+            }
+            findDepth: function void (out arr:array [100] of integer, n:integer){
+                index: integer = 0;
+                return findDepthRec(tree, n, index);
+            }
+        

@@ -1,0 +1,6 @@
+
+        x, y: integer = 65, 97;
+        main: function void() {
+            a: float = x + y;
+            printFloat(a);
+        }

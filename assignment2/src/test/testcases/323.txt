@@ -1,0 +1,4 @@
+x: array [2] of integer = {1,2};
+        main : function void(){
+            x = {1,2,3};
+            }

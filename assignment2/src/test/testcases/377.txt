@@ -1,0 +1,10 @@
+
+        i: integer = 6;
+        main: function void () {
+            x: integer = 7;
+        }
+        j: integer = 8;
+        foo: function void () {
+            y: integer = 8;
+        }
+        

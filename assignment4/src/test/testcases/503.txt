@@ -1,0 +1,11 @@
+
+        main:function void(){
+            a,b,c: integer = 1,2,3;
+            a = 4;
+            b = 5;
+            c = 6;
+            printInteger(a);
+            printInteger(b);
+            printInteger(c);
+        }
+        

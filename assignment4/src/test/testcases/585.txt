@@ -1,0 +1,16 @@
+
+        phil: function integer (out a: integer, out b: integer, c: integer){
+            b = b+5; 
+            b = a+c+4; // b=39
+            printInteger(a); //<<10
+            printInteger(b); //<<39
+            printInteger(c); //<<25
+            return a+b+c;
+        }
+        main:function void(){
+            j,k: integer = 10,15;
+            printInteger(phil(j,j,j+k)); // 10,10,25
+            printInteger(j); // <<39
+            printInteger(k); // <<15
+        }
+        

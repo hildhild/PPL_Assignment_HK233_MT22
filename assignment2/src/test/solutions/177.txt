@@ -1,0 +1,1 @@
+main,:,function,void,(,),{,for,(,i,=,1,,,i,<,getMax,(,),,,i,+,1,),{,if,(,i,==,threshold,),break,;,if,(,i,<,0,),continue,;,else,printInteger,(,i,),;,},},<EOF>

@@ -1,0 +1,22 @@
+
+            selectionSort: function void (out arr:array [100] of integer, n:integer){
+                i, j, min_idx: integer;
+                // One by one move boundary of
+                // unsorted subarray
+                for (i = 0, i < n-1, i+1)
+                {
+                    // Find the minimum element in
+                    // unsorted array
+                    min_idx = i;
+                    for (j = i+1, j < n, j+1)
+                    {
+                    if (arr[j] < arr[min_idx])
+                        min_idx = j;
+                    }
+                    // Swap the found minimum element
+                    // with the first element
+                    if (min_idx!=i)
+                        swap(arr[min_idx], arr[i]);
+                }
+            }
+        

@@ -1,0 +1,5 @@
+main: function void(){
+                a = 1;
+                a = b;
+                a[0] = 1;
+            }

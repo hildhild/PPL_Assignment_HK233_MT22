@@ -1,0 +1,9 @@
+
+        main: function void(){
+            b: boolean;
+            i: integer;
+            while(i){}
+            if(b){}
+            do{}while(b);
+        }
+            

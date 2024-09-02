@@ -1,0 +1,17 @@
+
+        b: integer = 9;
+        main:function void(){
+            b: integer = 7;
+            if(b>10){
+                printString("x>10");
+            }
+            else if ((b<=10) && (b>=5)){
+                b = b+1;
+                printString("x=8;");
+                printString("5<=x<=10");
+            }
+            else{
+                printString("x<5");
+            }
+        }
+        

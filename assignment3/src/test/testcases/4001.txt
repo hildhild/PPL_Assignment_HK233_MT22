@@ -1,0 +1,11 @@
+
+            goo: function auto() {}
+            foo : function auto(b:auto) {
+                a : auto = {{1,2},{goo(),4},{3,4}, b};
+                a[4,4] = 1;
+                return;
+            }
+            main:function void() {
+                return;
+            }
+            

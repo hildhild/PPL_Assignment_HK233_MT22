@@ -1,0 +1,7 @@
+ 
+             VoTien : auto = a[1] + 1;
+             VoTien : auto = arr[1,1+2][1][2,3];
+             VoTien : auto = arr[1,(1) :: 2,arr[ar[(1*2) && 1]],arr[2]];
+             VoTien : auto = a[1] + fun()[1,fun()] ;
+             VoTien : auto = 1[1];
+        

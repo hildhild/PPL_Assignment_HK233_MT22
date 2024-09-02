@@ -1,0 +1,6 @@
+
+        foo: function integer(){}
+        main: function void(){
+            a[0] = 5;
+        }
+            

@@ -1,0 +1,4 @@
+a: function array [1] of string (a: string) inherit c {
+    {//}
+    }
+}

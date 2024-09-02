@@ -1,0 +1,3 @@
+
+             x : auto = x ; x: auto = y;
+        

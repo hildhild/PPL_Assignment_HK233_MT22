@@ -1,0 +1,7 @@
+
+            x: array[4] of integer = foo(10);
+            foo: function array[4] of integer (n: float) {
+                return {n, n+1, n+2, n+3} ;
+            }
+            main: function void(){}
+            

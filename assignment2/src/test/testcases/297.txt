@@ -1,0 +1,1 @@
+        fact: function integer (n: auto) a=c;

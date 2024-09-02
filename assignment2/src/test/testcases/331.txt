@@ -1,0 +1,7 @@
+
+        main: function void (){
+            a = -4;
+            a = --4;
+            a = !true;
+            a = b[5];
+        }

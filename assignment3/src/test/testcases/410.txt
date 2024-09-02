@@ -1,0 +1,3 @@
+main: function void(){}
+            c: function void(){}
+            c: integer;

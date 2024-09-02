@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(heapSort, VoidType, [OutParam(arr, ArrayType([100], IntegerType)), Param(n, IntegerType)], None, BlockStmt([ForStmt(AssignStmt(Id(i), BinExpr(-, BinExpr(/, Id(N), IntegerLit(2)), IntegerLit(1))), BinExpr(>=, Id(i), IntegerLit(0)), BinExpr(-, Id(i), IntegerLit(1)), CallStmt(heapify, Id(arr), Id(N), Id(i))), ForStmt(AssignStmt(Id(i), BinExpr(-, Id(N), IntegerLit(1))), BinExpr(>, Id(i), IntegerLit(0)), BinExpr(-, Id(i), IntegerLit(1)), BlockStmt([CallStmt(swap, ArrayCell(arr, [IntegerLit(0)]), ArrayCell(arr, [Id(i)])), CallStmt(heapify, Id(arr), Id(i), IntegerLit(0))]))]))
+])

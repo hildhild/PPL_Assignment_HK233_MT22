@@ -1,0 +1,1 @@
+Type mismatch in statement: ReturnStmt(ArrayLit([Id(n), BinExpr(+, Id(n), IntegerLit(1)), BinExpr(+, Id(n), IntegerLit(2)), BinExpr(+, Id(n), IntegerLit(3))]))

@@ -1,0 +1,21 @@
+
+        a : function void()
+        {}
+        
+        a : function void()
+        {
+
+            x : integer = x;
+            
+        }
+        
+        a : function auto()
+        {}
+        a : function float() { 
+        }
+        a : function void() { 
+        //123
+        }
+        a : function auto() { /* comment*/
+        }
+        

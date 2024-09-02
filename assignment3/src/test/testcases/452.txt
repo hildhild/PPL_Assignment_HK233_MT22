@@ -1,0 +1,11 @@
+
+        main: function void(){
+            b1: boolean;
+            b2: boolean;
+            i1: integer;
+            i2: integer;
+            while(i1 == i2){}
+            if(i1){}
+            do{}while(b1);
+        }
+            

@@ -1,0 +1,24 @@
+
+        main:function void(){
+            // Integer
+            a: integer = 1;
+            b: integer = 2;
+            b = b/a;
+            a = a+b;
+            a = a*b;
+            b = b%2;
+            printInteger(a-1);
+            // Boolean
+            b1: boolean = true;
+            b2: boolean = false;
+            b1 = b1 || b2;
+            printBoolean(b1 && b2);
+            // Integer - Boolean
+            printBoolean(b >= a);
+            // String
+            s1: string = "hello";
+            s2: string = "world";
+            s1 = (s1::" ")::s2;
+            printString(s1);
+        }
+        

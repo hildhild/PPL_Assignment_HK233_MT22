@@ -1,0 +1,9 @@
+
+        main: function void(){
+            a: integer;
+            b: boolean;
+            c: boolean;
+            b = (b && c) || c; // valid
+            b = a && b; // invalid: a && b
+        }
+            

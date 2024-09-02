@@ -1,0 +1,11 @@
+
+        findGCD: function integer(a: integer, b:integer){
+            if (b == 0) return a;
+            return findGCD(b, a % b);
+        }
+        main:function void(){
+            a: array [2] of integer = {10,24};
+            gcd: integer = findGCD(a[0],a[1]);
+            printInteger(gcd);
+        }
+        

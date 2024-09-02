@@ -1,0 +1,24 @@
+
+            interpolationSearch: function boolean (arr:array [100] of integer, x:integer, n:integer){
+                low: integer = 0;
+                high: integer = n-1;
+                while((low<=high) && (target>=arr[low]) && (target <=arr[high])){
+                    pos:integer = low + (((target - arr[low]) * (high - low)) / (arr[high] - arr[low]));
+ 
+                    // Check if the target element is at the calculated position
+                    if( arr[pos] == target){
+                        return pos;
+                    }
+            
+                    // If the target element is less than the element at the calculated position, search the left half of the list
+                    if(arr[pos] > target){
+                        high = pos - 1;
+                    }
+                    else{
+                        // If the target element is greater than the element at the calculated position, search the right half of the list
+                        low = pos + 1;
+                    }
+                }
+                return -1;
+            }
+        

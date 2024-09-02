@@ -1,0 +1,6 @@
+
+         main : function void()
+            {
+            for (i = a[7,16] , i >= 10 , 1 + 1)
+            }
+        

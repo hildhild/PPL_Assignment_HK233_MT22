@@ -1,0 +1,7 @@
+
+            inc: function void (out n: integer, n: float) inherit foo{
+                super(0.1, 1);
+                n: string = 124;
+            }
+            foo: function auto (inherit n: float, b: integer){}
+            

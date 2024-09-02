@@ -1,0 +1,6 @@
+
+        foo: function auto(a: integer){}
+        main: function void(a: integer) inherit foo{
+            super(1);
+        }
+            

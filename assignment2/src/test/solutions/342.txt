@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(Id(t), BinExpr(::, FuncCall(getA, [Id(a)]), FuncCall(getB, [Id(b)]))), VarDecl(x, IntegerType, FuncCall(getX, [Id(x)])), AssignStmt(ArrayCell(a, [IntegerLit(1)]), FuncCall(getA1, [ArrayCell(a, [IntegerLit(0)])]))]))
+])

@@ -1,0 +1,21 @@
+
+        i: function integer(a: integer){
+            return a;
+        }
+        s: function string(c: string){
+            return c;
+        }
+        f: function float(b:float){
+            return b;
+        }
+        b: function boolean(d: boolean){
+            return d;
+        }
+        
+        main:function void(){
+            printInteger(i(1)+i(2));
+            printString(s("1")::s("2"));
+            writeFloat(f(1.0)+f(2.0));
+            printBoolean(b(true)||b(false));
+        }
+        

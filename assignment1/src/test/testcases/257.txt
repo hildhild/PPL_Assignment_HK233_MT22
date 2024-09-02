@@ -1,0 +1,8 @@
+
+        main: function void (){
+            if(happy && print==true) 
+                setHappy(true);
+                printString("happyyyy");
+            else setHappy(false);
+        }
+        

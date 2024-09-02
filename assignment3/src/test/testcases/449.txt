@@ -1,0 +1,9 @@
+
+        main: function void(){
+            a: array [5] of float;
+            s: string;
+            a[3] = 2.5;
+            a[2] = 5;
+            a[1] = s;
+        }
+            

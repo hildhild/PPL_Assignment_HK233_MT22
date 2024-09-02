@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(a, VoidType, [Param(a, ArrayType([1], IntegerType))], c, BlockStmt([BlockStmt([CallStmt(foo, IntegerLit(1))])]))
+])

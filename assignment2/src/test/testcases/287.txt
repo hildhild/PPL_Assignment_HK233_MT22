@@ -1,0 +1,4 @@
+        fact: function integer ( a : integer) {
+            break;
+            for ( , ,) return 1;
+        }

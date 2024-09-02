@@ -1,0 +1,5 @@
+a : function void (inherit a : integer, out b : array [1] of string) inherit c {
+                    {
+                    }
+                    if (a > 2);
+                }

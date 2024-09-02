@@ -1,0 +1,7 @@
+
+        main: function void(){
+            b: boolean;
+            a: array [5] of integer;
+            a = {1,2,3,4,5};
+        }
+            

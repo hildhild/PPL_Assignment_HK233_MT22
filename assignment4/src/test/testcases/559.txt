@@ -1,0 +1,13 @@
+
+        i: integer = 1;
+        main:function void(){
+            i = inc(i) + double(i);
+            printInteger(i);
+        }
+        inc: function integer(i: integer){
+            return i+1;
+        }
+        double: function integer(i: integer){
+            return i*2;
+        }
+        

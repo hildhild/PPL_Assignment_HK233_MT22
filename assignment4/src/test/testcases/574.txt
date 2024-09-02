@@ -1,0 +1,27 @@
+
+        i: function integer(a: integer){
+            {
+                return a;
+            }
+        }
+        s: function string(c: string){
+            return c;
+        }
+        f: function float(b:float){
+            return b;
+        }
+        b: function boolean(d: boolean){
+            return d;
+        }
+        
+        main:function void(){
+            a: float;
+            {
+                a = f(1.0);
+                {
+                    a = a+i(2);
+                }
+                writeFloat(a);
+            }
+        }
+        

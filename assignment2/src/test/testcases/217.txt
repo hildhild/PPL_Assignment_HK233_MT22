@@ -1,0 +1,1 @@
+a : function array [1] of string () inherit c { do {return 1;} while ({} == 1);}

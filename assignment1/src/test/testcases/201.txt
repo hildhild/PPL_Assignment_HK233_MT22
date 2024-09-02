@@ -1,0 +1,18 @@
+ 
+            VoTien : integer;
+            
+            //VO Tien
+            VoTien : integer = 0;
+            a: array [122,15] of boolean;
+            a: array [122,15] of boolean = 1 + 1 / 2 * 3;
+            b: array [3] of string;
+            /* 12 
+            */
+            
+            b : array [3] of string =  2 :: " tring";
+            i: float = 0;
+            i:integer;
+            i:integer = 0;
+            // VO Tien;
+             
+        

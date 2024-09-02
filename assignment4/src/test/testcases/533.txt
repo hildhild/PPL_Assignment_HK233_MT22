@@ -1,0 +1,10 @@
+
+        main:function void(){
+            b: integer = 5;
+            do{
+                printInteger(b);
+                b = b-1;
+            }while(b>0);
+            printInteger(b);
+        }
+        

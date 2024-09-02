@@ -1,0 +1,5 @@
+
+        main: function void (){
+            a,b = 5;
+        }
+        

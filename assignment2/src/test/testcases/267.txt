@@ -1,0 +1,3 @@
+a : function void (){
+    a[1_2_3] = b;
+}

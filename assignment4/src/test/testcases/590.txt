@@ -1,0 +1,16 @@
+
+        abs: function float (a: float)
+        {
+            if (a < 0)
+            {
+                return -a;
+            }
+            return a;
+        }
+        foo: function boolean(a: float, b: float)
+        {
+            return abs(a) + abs(b) >= abs(a + b);
+        }
+        main: function void() {
+            printBoolean(foo(2.1, -1.9));
+        }
